@@ -18,7 +18,7 @@ class NotesView extends StatelessWidget {
               ),
               context: context, builder: (context)
           {
-            return const AddBottomModelSheet();
+            return const AddNoteBottomSheet();
           });
         },
       child:const Icon(Icons.add,
